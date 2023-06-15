@@ -1,7 +1,9 @@
 #include <stdio.h>
-
-	int main()
-{
+	
+	int main(void)
+{	/**
+	  puts a value for task 4
+	 */
 	puts("Programming is like building a multilingual puzzle");
 
 	return 0;
