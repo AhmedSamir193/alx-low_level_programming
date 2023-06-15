@@ -3,7 +3,7 @@
 /**
  * main : entry Pointer
  *
- * descrition : It is responsible for starting and ends of the program
+ * descrition: Function that prints with put function 
  *
  * return : Always 0 (success)
  */
