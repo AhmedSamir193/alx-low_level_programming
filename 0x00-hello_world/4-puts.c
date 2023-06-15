@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- * main : Entry Pointer
+ * main : entry Pointer
  *
- * Descrition : It is responsible for starting and ends of the program
+ * descrition : It is responsible for starting and ends of the program
  *
- * Return : Always 0
- * */
+ * return : Always 0 (success)
+ */
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
