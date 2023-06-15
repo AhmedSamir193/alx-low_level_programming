@@ -1,10 +1,14 @@
 #include <stdio.h>
-/** this is the main function */
+
+/**
+ * main : Entry Pointer
+ *
+ * Descrition : It is responsible for starting and ends of the program
+ *
+ * Return : Always 0
+ * */
 int main(void)
 {
-/**
-*puts a value for task 
-*/
-puts("\"Programming is like building a multilingual puzzle"\");
+puts("\"Programming is like building a multilingual puzzle");
 return (0);
 }
