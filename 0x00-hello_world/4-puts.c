@@ -3,9 +3,9 @@
 /**
  * main : entry Pointer
  *
- * descrition: Function that prints with put function 
+ * descrition : Function that prints with put function 
  *
- * return : Always 0 (success)
+ * Return : Always 0 (success)
  */
 int main(void)
 {
