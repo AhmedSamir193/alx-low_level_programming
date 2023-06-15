@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - entry Pointer
+ *  main - entry Pointer
  *
- * description: Function that prints with put function 
+ *  description: A C program that prints with put function.
  *
- * Return: Always 0 (success)
+ *  Return: Always 0 (success)
  */
 
 int main(void)
