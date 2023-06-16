@@ -14,9 +14,9 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 
 if (n > 0)
-printf("This is positive: %d\n")
+printf("This is positive: %d\n");
 else if (n < 0)
-printf("This is negative: %d\n")
+printf("This is negative: %d\n");
 else
-printf("This is zero : %d\n")
+printf("This is zero : %d\n");
 }	
