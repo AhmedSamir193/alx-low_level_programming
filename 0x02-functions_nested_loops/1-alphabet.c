@@ -6,8 +6,10 @@
 */
 void print_alphabet(void);
 {
-char letter;
-for (letter = 'a'; letter <= 'z'; letter++)
-	_putchar(letter);
+char l;
+for (l = 'a'; l <= 'z'; l++)
+{
+	_putchar(l);
+}
 _putchar('\n');
 }
