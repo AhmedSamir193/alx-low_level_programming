@@ -4,7 +4,7 @@
  * _strncat - concatenates two strings
  * @dest: destination string
  * @src: source string
- * @n: number of bytes of str 
+ * @n: number of bytes
  *
  * Return: (dest)
 */
@@ -16,7 +16,7 @@ i = 0;
 m = 0;
 
 while (dest[i] != '\0')
-	i++
+	i++;
 while (src[m] != '\0' && m < n)
 {
 dest[i] = src[m];
