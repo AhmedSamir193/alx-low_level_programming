@@ -5,7 +5,7 @@
  * to uppercase
  * @s: string
  *
- * return: (s)
+ * return: result of string
 */
 char *string_toupper(char *s)
 {
