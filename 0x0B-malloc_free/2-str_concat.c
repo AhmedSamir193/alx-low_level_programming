@@ -35,11 +35,14 @@ j = 0;
 while (k < l)
 {
 if (k <= n)
+s[k] = s1[k];
+if (k >= n)
 {
-s[k] = s2[j]
+s[k] = s2[j];
 j++;
 }
-k++
+
+k++;
 }
 s[k] = '\0';
 return (s);
