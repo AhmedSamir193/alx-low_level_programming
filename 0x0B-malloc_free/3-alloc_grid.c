@@ -18,11 +18,11 @@ return (NULL);
 
 aar = malloc(sizeof(int *) * height);
 
-if (a == NULL)
+if (aar == NULL)
 {
-free(a);
+free(aar);
 return (NULL);
-{
+}
 for (n = 0; n < height; n++)
 {
 aar[n] = malloc(sizeof(int) * width);
@@ -36,12 +36,12 @@ free(aar);
 return (NULL);
 }
 }
-for (k = 0l k < height; k++)
+for (k = 0; k < height; k++)
 {
 for (l = 0; l < width; l++)
 {
-a[k][l] = 0;
+aar[k][l] = 0;
 }
 }
-return (a);
+return (aar);
 }
