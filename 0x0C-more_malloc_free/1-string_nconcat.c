@@ -35,14 +35,14 @@ if (str == NULL)
 return (NULL);
 
 le1 = 0;
-while (le1 < le2)
+while (j < le2)
 {
 if (j <= i)
 str[j] = s1[j];
 
 if (j >= i)
 {
-str [j] = s2[le1];
+str[j] = s2[le1];
 le1++;
 }
 j++;
