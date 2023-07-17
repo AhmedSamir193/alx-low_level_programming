@@ -1,5 +1,5 @@
-#ifndef _HEADER_H
-#define _HEADER_H
+#ifndef HEADER
+#define HEADER
 
 /**
  * struct dog - the dog
@@ -15,3 +15,4 @@ char *name;
 float age;
 char *owner;
 };
+#endif
