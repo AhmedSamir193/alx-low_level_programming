@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include "dog.h"
 
-int _Strlen(char *s);
+int _strlen(char *s);
 char *_strcpy(char *dest, char *src);
 
 /**
@@ -19,8 +19,8 @@ int name_1 = 0, own_1 = 0;
 
 if (name != NULL && owner != NULL)
 {
-name_1 = _Strlen(name) + 1;
-own_1 = _Strlen(owner) + 1;
+name_1 = _strlen(name) + 1;
+own_1 = _strlen(owner) + 1;
 cute_dog = malloc(sizeof(dog_t));
 
 if (cute_dog == NULL)
