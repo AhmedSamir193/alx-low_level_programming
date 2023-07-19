@@ -21,7 +21,7 @@ exit(98);
 
 oprt = get_op_func(argv[2]);
 
-if (!port)
+if (!oprt)
 {
 printf("Error\n");
 exit(99);
