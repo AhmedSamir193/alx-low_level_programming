@@ -42,8 +42,7 @@ return (a * b);
  * op_div - calculates the division of two int
  * @a: first int
  * @b: second int
- *
- * Return: div of a and b 
+ * Return: div of a and b
 */
 int op_div(int a, int b)
 {
@@ -51,23 +50,12 @@ return (a / b);
 }
 
 /**
- * op_mod - calculates the remainder of the div of two int
+ * op_mod - calculates remainder of div of two int
  * @a: first int
- * @b: second int
- *
- * Return: remainder of a div b 
- */
+ * @b:second int
+ * Return: remainder of a div b
+*/
 int op_mod(int a, int b)
 {
 return (a % b);
 }
-
-
-
-
-
-
-
-
-
-
